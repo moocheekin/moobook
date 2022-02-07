@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      # Slack @mentions
+      - name: Github mention to Slack
+        uses: abeyuya/actions-mention-to-slack@v2
+
+          
+
